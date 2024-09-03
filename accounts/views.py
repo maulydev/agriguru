@@ -5,10 +5,12 @@ from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import generics
-from .serializers import RegisterSerializer
+from rest_framework import viewsets
 from rest_framework.permissions import AllowAny
-
-
+from .serializers import RegisterSerializer
+from .models import Profile, OTP
+from .serializers import ProfileSerializer
+from .serializers import OTPVerifySerializer
 
 
 class CustomAuthToken(ObtainAuthToken):
@@ -49,14 +51,49 @@ class RegisterView(generics.CreateAPIView):
     serializer_class = RegisterSerializer
     permission_classes = [AllowAny]
 
-    def create(self, request, *args, **kwargs):
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = serializer.save()
+
+        # Generate and send OTP
+        otp = OTP.objects.create(user=user, phone_number=user.profile.phone_number)
+        otp.generate_otp()
+        
+        # Here you would integrate with an SMS API to send the OTP to the user's phone number
+        # Example with Twilio:
+        # send_sms(user.profile.phone_number, otp.otp)
+        print(f"OTP sent to {user.profile.phone_number}: {otp.otp}")
+
+        return Response({
+            "user": {
+                "username": user.username,
+                "phone_number": user.profile.phone_number,
+            },
+            "otp_message": "OTP has been sent to your phone number. Please verify to complete registration.",
+            "otp": otp.otp
+        }, status=status.HTTP_201_CREATED)
+
+
+class OTPVerifyView(generics.GenericAPIView):
+    serializer_class = OTPVerifySerializer
+    permission_classes = [AllowAny]
+
+    def post(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
         return Response({
+            "message": "Phone number verified successfully.",
             "user": {
                 "username": user.username,
-                "user_id": user.pk,
-            },
-            "message": "User created successfully."
-        }, status=status.HTTP_201_CREATED)
+                "phone_number": user.profile.phone_number,
+                "is_verified": user.profile.is_verified,
+            }
+        }, status=status.HTTP_200_OK)
+
+
+class ProfileViewSet(viewsets.ModelViewSet):
+    queryset = Profile.objects.all()
+    serializer_class = ProfileSerializer
+    permission_classes = [IsAuthenticated]
