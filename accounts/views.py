@@ -11,6 +11,8 @@ from .serializers import RegisterSerializer
 from .models import Profile, OTP
 from .serializers import ProfileSerializer
 from .serializers import OTPVerifySerializer
+from django.contrib.auth.models import User
+from django.utils import timezone
 
 
 class CustomAuthToken(ObtainAuthToken):
@@ -26,6 +28,7 @@ class CustomAuthToken(ObtainAuthToken):
         
         # Create a new token
         token = Token.objects.create(user=user)
+        User.objects.filter(username=user.username).update(last_login=timezone.now())
         return Response({
             'token': token.key,
             'user_id': user.pk,
