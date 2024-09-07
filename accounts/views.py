@@ -18,12 +18,20 @@ from django_filters.rest_framework import DjangoFilterBackend
 
 
 class CustomAuthToken(ObtainAuthToken):
-
     def post(self, request, *args, **kwargs):
-        serializer = self.serializer_class(data=request.data,
-                                           context={'request': request})
-        serializer.is_valid(raise_exception=True)
-        user = serializer.validated_data['user']
+        # Custom authentication using phone number and password
+        phone_number = request.data.get('phone_number')
+        password = request.data.get('password')
+        
+        try:
+            profile = Profile.objects.get(phone_number=phone_number)
+            user = profile.user
+            if not user.check_password(password):
+                raise Exception("Invalid password")
+        except Profile.DoesNotExist:
+            return Response({'error': 'Invalid phone number'}, status=status.HTTP_400_BAD_REQUEST)
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
         
         # Check if the user is verified
         if not user.profile.is_verified:
