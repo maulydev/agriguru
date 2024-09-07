@@ -59,7 +59,8 @@ class CustomAuthToken(ObtainAuthToken):
         return Response({
             'token': token.key,
             'user_id': user.pk,
-            'username': user.username
+            'username': user.username,
+            'farmer_id': Profile.objects.filter(user=user).first().id if Profile.objects.filter(user=user).exists() else None
         }, status=status.HTTP_200_OK)
 
 
