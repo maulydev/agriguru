@@ -13,6 +13,8 @@ from .serializers import ProfileSerializer
 from .serializers import OTPVerifySerializer
 from django.contrib.auth.models import User
 from django.utils import timezone
+from rest_framework import filters
+from django_filters.rest_framework import DjangoFilterBackend
 
 
 class CustomAuthToken(ObtainAuthToken):
@@ -99,4 +101,9 @@ class OTPVerifyView(generics.GenericAPIView):
 class ProfileViewSet(viewsets.ModelViewSet):
     queryset = Profile.objects.all()
     serializer_class = ProfileSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [AllowAny]
+    filter_backends = [filters.SearchFilter, DjangoFilterBackend]
+    filterset_fields = ['user__username']
+    search_fields = ['user__username', 'phone_number']
+    ordering_fields = ['user__username', 'phone_number']
+    ordering = ['user__username']

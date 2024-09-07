@@ -7,6 +7,11 @@ from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework import routers
 from accounts.views import ProfileViewSet
+from produce.views import ProduceViewSet
+from purchase_request.views import PurchaseRequestViewSet, PurchaseResponseViewSet
+from posts.views import PostViewSet
+
+
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -23,6 +28,17 @@ schema_view = get_schema_view(
 
 router = routers.DefaultRouter()
 router.register(r'profiles', ProfileViewSet)
+router.register(r'produces', ProduceViewSet)
+router.register(r'posts', PostViewSet)
+router.register(f'purchase-request', PurchaseRequestViewSet)
+router.register(f'purchase-response', PurchaseResponseViewSet)
+
+
+admin.site.index_title = "AgriGuru Administration"
+admin.site.name = "AgriGuru"
+admin.site.site_header = "AgriGuru"
+admin.site.site_title = "Dashboard"
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),

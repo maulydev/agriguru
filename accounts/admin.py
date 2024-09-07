@@ -3,10 +3,10 @@ from .models import Profile, OTP
 
 @admin.register(Profile)
 class ProfileAdmin(admin.ModelAdmin):
-    list_display = ['user', 'role', 'phone_number', 'address', 'profile_picture']
-    search_fields = ['user__username', 'user__email', 'phone_number', 'address']
-    list_filter = ['role']
-    ordering = ['user__username']
+    list_display = ['user', 'role', 'is_verified', 'phone_number', 'address', 'profile_picture']
+    search_fields = ['user__username', 'user__email', 'is_verified', 'phone_number', 'address']
+    list_filter = ['role', 'is_verified']
+    ordering = ['user__username', 'is_verified',]
     
 @admin.register(OTP)
 class OTPAdmin(admin.ModelAdmin):

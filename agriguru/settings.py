@@ -43,6 +43,11 @@ INSTALLED_APPS = [
     'drf_yasg',
     'corsheaders',
     'accounts.apps.AccountsConfig',
+    'produce.apps.ProduceConfig',
+    'purchase_request.apps.PurchaseRequestConfig',
+    'posts.apps.PostsConfig',
+    'post_gallery.apps.PostGalleryConfig',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -60,8 +65,11 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
     ],
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
+    # 'DEFAULT_PERMISSION_CLASSES': [
+    #     'rest_framework.permissions.IsAuthenticated',
+    # ],
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend',
     ],
 }
 
