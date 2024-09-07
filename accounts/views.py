@@ -25,11 +25,22 @@ class CustomAuthToken(ObtainAuthToken):
         serializer.is_valid(raise_exception=True)
         user = serializer.validated_data['user']
         
-        # Delete old token if it exists
-        Token.objects.filter(user=user).delete()
+        # Check if the user is verified
+        if not user.profile.is_verified:
+            # generate and send OTP
+            otp, created = OTP.objects.get_or_create(user=user, phone_number=user.profile.phone_number)
+            if not created:
+                otp.generate_otp()
+                otp.save()
+            print(f"OTP sent to {user.profile.phone_number}: {otp.otp}")
+            return Response({
+                'error': 'User is not verified. Please complete the verification process.',
+                'new otp': otp.otp
+            }, status=status.HTTP_403_FORBIDDEN)
         
-        # Create a new token
-        token = Token.objects.create(user=user)
+        # Get or create token
+        token, _ = Token.objects.get_or_create(user=user)
+        
         User.objects.filter(username=user.username).update(last_login=timezone.now())
         return Response({
             'token': token.key,
