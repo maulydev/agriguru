@@ -4,6 +4,7 @@ from django.db import models
 class Post(models.Model):
     farmer = models.ForeignKey('accounts.Profile', on_delete=models.CASCADE)
     produce = models.ForeignKey('produce.Produce', on_delete=models.CASCADE)
+    image = models.ImageField(upload_to='posts/images/', null=True, blank=True)
     location = models.CharField(max_length=100)
     description = models.TextField(default='No description')
     is_negotiable = models.BooleanField(default=False)
