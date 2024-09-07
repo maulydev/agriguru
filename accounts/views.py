@@ -128,7 +128,7 @@ class ProfileViewSet(viewsets.ModelViewSet):
     serializer_class = ProfileSerializer
     permission_classes = [AllowAny]
     filter_backends = [filters.SearchFilter, DjangoFilterBackend]
-    filterset_fields = ['user__username']
+    filterset_fields = ['user_id']
     search_fields = ['user__username', 'phone_number']
     ordering_fields = ['user__username', 'phone_number']
     ordering = ['user__username']
