@@ -15,9 +15,12 @@ from django.contrib.auth.models import User
 from django.utils import timezone
 from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
-
+from rest_framework import serializers
 
 class CustomAuthToken(ObtainAuthToken):
+    def get_serializer(self):
+        return CustomAuthTokenSerializer()
+
     def post(self, request, *args, **kwargs):
         # Custom authentication using phone number and password
         phone_number = request.data.get('phone_number')
@@ -46,8 +49,11 @@ class CustomAuthToken(ObtainAuthToken):
                 'new otp': otp.otp
             }, status=status.HTTP_403_FORBIDDEN)
         
-        # Get or create token
-        token, _ = Token.objects.get_or_create(user=user)
+        # Delete any existing token for the user
+        Token.objects.filter(user=user).delete()
+        
+        # Create a new token
+        token = Token.objects.create(user=user)
         
         User.objects.filter(username=user.username).update(last_login=timezone.now())
         return Response({
@@ -56,6 +62,9 @@ class CustomAuthToken(ObtainAuthToken):
             'username': user.username
         }, status=status.HTTP_200_OK)
 
+class CustomAuthTokenSerializer(serializers.Serializer):
+    phone_number = serializers.CharField(label="Phone Number")
+    password = serializers.CharField(label="Password", style={'input_type': 'password'}, trim_whitespace=False)
 
 class LogoutView(APIView):
     permission_classes = [IsAuthenticated]
