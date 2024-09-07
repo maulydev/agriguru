@@ -2,6 +2,9 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 from .models import Profile, OTP
 
+class CustomAuthTokenSerializer(serializers.Serializer):
+    phone_number = serializers.CharField(label="Phone Number")
+    password = serializers.CharField(label="Password", style={'input_type': 'password'}, trim_whitespace=False)
 
 class RegisterSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True, required=True, style={

@@ -15,7 +15,7 @@ from django.contrib.auth.models import User
 from django.utils import timezone
 from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework import serializers
+from .serializers import CustomAuthTokenSerializer
 
 class CustomAuthToken(ObtainAuthToken):
     def get_serializer(self):
@@ -62,9 +62,6 @@ class CustomAuthToken(ObtainAuthToken):
             'username': user.username
         }, status=status.HTTP_200_OK)
 
-class CustomAuthTokenSerializer(serializers.Serializer):
-    phone_number = serializers.CharField(label="Phone Number")
-    password = serializers.CharField(label="Password", style={'input_type': 'password'}, trim_whitespace=False)
 
 class LogoutView(APIView):
     permission_classes = [IsAuthenticated]
