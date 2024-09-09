@@ -133,3 +133,4 @@ class ProfileViewSet(viewsets.ModelViewSet):
     search_fields = ['user__username', 'phone_number']
     ordering_fields = ['user__username', 'phone_number']
     ordering = ['user__username']
+    lookup_field = 'user_id'

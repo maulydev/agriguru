@@ -10,3 +10,13 @@ class Produce(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Inventory(models.Model):
+    produce = models.OneToOneField(Produce, on_delete=models.CASCADE)
+    quantity = models.PositiveIntegerField(default=0)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.produce.name} - {self.quantity} units"

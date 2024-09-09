@@ -7,9 +7,10 @@ from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework import routers
 from accounts.views import ProfileViewSet
-from produce.views import ProduceViewSet
+from produce.views import ProduceViewSet, InventoryViewSet
 from purchase_request.views import PurchaseRequestViewSet, PurchaseResponseViewSet
 from posts.views import PostViewSet
+from orders.views import OrderViewSet
 
 
 
@@ -32,6 +33,8 @@ router.register(r'produces', ProduceViewSet)
 router.register(r'posts', PostViewSet)
 router.register(f'purchase-request', PurchaseRequestViewSet)
 router.register(f'purchase-response', PurchaseResponseViewSet)
+router.register(f'orders', OrderViewSet)
+router.register(f'inventory', InventoryViewSet)
 
 
 admin.site.index_title = "AgriGuru Administration"
