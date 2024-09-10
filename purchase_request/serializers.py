@@ -3,9 +3,35 @@ from .models import PurchaseRequest, PurchaseResponse
 
 
 class PurchaseRequestSerializer(serializers.ModelSerializer):
+    farmers_responded = serializers.SerializerMethodField()
+    produce_details = serializers.SerializerMethodField()
+
     class Meta:
         model = PurchaseRequest
         fields = '__all__'
+
+    def get_farmers_responded(self, obj):
+        return [
+            {
+                'id': response.farmer.id,
+                'username': response.farmer.user.username,
+                'first_name': response.farmer.user.first_name,
+                'last_name': response.farmer.user.last_name,
+                'accepted': response.accepted,
+                'rejected': response.rejected,
+                'price_per_ton': float(response.price_per_ton) if response.price_per_ton else None,
+                'response_date': response.response_date
+            }
+            for response in obj.purchaseresponse_set.all()
+        ]
+
+    def get_produce_details(self, obj):
+        return {
+            'id': obj.produce.id,
+            'name': obj.produce.name,
+            'description': obj.produce.description,
+            'image': obj.produce.image.url if obj.produce.image else None,
+        }
 
 
 class PurchaseResponseSerializer(serializers.ModelSerializer):
