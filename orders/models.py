@@ -12,6 +12,7 @@ class Order(models.Model):
     )
     
     post = models.ForeignKey('posts.Post', on_delete=models.CASCADE)
+    quantity = models.PositiveIntegerField(null=True, blank=True, help_text="Tons")
     order_status = models.CharField(max_length=20, choices=ORDER_STATUS, default='pending')
     order_date = models.DateTimeField(auto_now_add=True)
     last_updated = models.DateTimeField(auto_now=True)

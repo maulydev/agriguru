@@ -2,6 +2,7 @@ from django.db import models
 
 
 class Post(models.Model):
+    title = models.CharField(max_length=100, null=True, blank=True)
     farmer = models.ForeignKey('accounts.Profile', on_delete=models.CASCADE)
     produce = models.ForeignKey('produce.Produce', on_delete=models.CASCADE)
     image = models.ImageField(upload_to='posts/images/', null=True, blank=True)
