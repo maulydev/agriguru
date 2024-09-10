@@ -57,6 +57,7 @@ class CustomAuthToken(ObtainAuthToken):
         
         User.objects.filter(username=user.username).update(last_login=timezone.now())
         return Response({
+            'role': user.profile.role,
             'token': token.key,
             'user_id': user.pk,
             'username': user.username,
