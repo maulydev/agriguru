@@ -11,11 +11,13 @@ class Order(models.Model):
         ('completed', 'Completed'),
     )
     
-    post = models.ForeignKey('posts.Post', on_delete=models.CASCADE)
+    farmer = models.CharField(max_length=50, default='')
+    produce = models.ForeignKey('produce.Produce', on_delete=models.PROTECT, default=1)
+    order_description = models.TextField(null=True, blank=True)
     quantity = models.PositiveIntegerField(null=True, blank=True, help_text="Tons")
     order_status = models.CharField(max_length=20, choices=ORDER_STATUS, default='pending')
     order_date = models.DateTimeField(auto_now_add=True)
     last_updated = models.DateTimeField(auto_now=True)
     
     def __str__(self):
-        return f"{self.post.farmer.user.username} - {self.post.title}"
+        return f"{self.farmer} - {self.produce.name}"
