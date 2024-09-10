@@ -11,7 +11,7 @@ from produce.views import ProduceViewSet, InventoryViewSet
 from purchase_request.views import PurchaseRequestViewSet, PurchaseResponseViewSet
 from posts.views import PostViewSet
 from orders.views import OrderViewSet
-
+from payment.views import PaymentViewSet
 
 
 schema_view = get_schema_view(
@@ -35,6 +35,7 @@ router.register(f'purchase-request', PurchaseRequestViewSet)
 router.register(f'purchase-response', PurchaseResponseViewSet)
 router.register(f'orders', OrderViewSet)
 router.register(f'inventory', InventoryViewSet)
+router.register(f'payment', PaymentViewSet)
 
 
 admin.site.index_title = "AgriGuru Administration"

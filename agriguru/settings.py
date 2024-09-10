@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'posts.apps.PostsConfig',
     'post_gallery.apps.PostGalleryConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
     'django_filters',
 ]
 
