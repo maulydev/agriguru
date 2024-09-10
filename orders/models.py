@@ -13,7 +13,6 @@ class Order(models.Model):
     
     post = models.ForeignKey('posts.Post', on_delete=models.CASCADE)
     order_status = models.CharField(max_length=20, choices=ORDER_STATUS, default='pending')
-    payment_date = models.DateTimeField(null=True, blank=True)
     order_date = models.DateTimeField(auto_now_add=True)
     last_updated = models.DateTimeField(auto_now=True)
     
