@@ -94,7 +94,7 @@ class RegisterView(generics.CreateAPIView):
         serializer = self.get_serializer(data=request.data)
 
         if request.data.get('phone_number') and User.objects.filter(profile__phone_number=request.data.get('phone_number')).exists():
-            return Response({"error": "Phone number already registered."})
+            return Response({"error": "Phone number already registered."}, status=status.HTTP_400_BAD_REQUEST)
 
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
