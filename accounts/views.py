@@ -47,6 +47,7 @@ class CustomAuthToken(ObtainAuthToken):
                 otp.generate_otp()
                 otp.save()
             print(f"OTP sent to {user.profile.phone_number}: {otp.otp}")
+            send_otp_sms(user.profile.phone_number, otp.otp)
             return Response({
                 'error': 'User is not verified. Please complete the verification process.',
                 'new otp': otp.otp
