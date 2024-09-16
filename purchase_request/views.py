@@ -15,6 +15,7 @@ class PurchaseRequestViewSet(viewsets.ModelViewSet):
 class PurchaseResponseViewSet(viewsets.ModelViewSet):
     queryset = PurchaseResponse.objects.all()
     serializer_class = PurchaseResponseSerializer
+    filterset_fields = ['farmer', 'accepted', 'rejected']
 
     def get_queryset(self):
         user = self.request.user
