@@ -19,7 +19,6 @@ from .serializers import CustomAuthTokenSerializer
 from lib.otp import send_otp_sms
 
 
-
 class CustomAuthToken(ObtainAuthToken):
     def get_serializer(self):
         return CustomAuthTokenSerializer()
@@ -28,7 +27,7 @@ class CustomAuthToken(ObtainAuthToken):
         # Custom authentication using phone number and password
         phone_number = request.data.get('phone_number')
         password = request.data.get('password')
-        
+
         try:
             profile = Profile.objects.get(phone_number=phone_number)
             user = profile.user
@@ -38,11 +37,12 @@ class CustomAuthToken(ObtainAuthToken):
             return Response({'error': 'Invalid phone number'}, status=status.HTTP_400_BAD_REQUEST)
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
-        
+
         # Check if the user is verified
         if not user.profile.is_verified:
             # generate and send OTP
-            otp, created = OTP.objects.get_or_create(user=user, phone_number=user.profile.phone_number)
+            otp, created = OTP.objects.get_or_create(
+                user=user, phone_number=user.profile.phone_number)
             if not created:
                 otp.generate_otp()
                 otp.save()
@@ -51,14 +51,15 @@ class CustomAuthToken(ObtainAuthToken):
                 'error': 'User is not verified. Please complete the verification process.',
                 'new otp': otp.otp
             }, status=status.HTTP_403_FORBIDDEN)
-        
+
         # Delete any existing token for the user
         Token.objects.filter(user=user).delete()
-        
+
         # Create a new token
         token = Token.objects.create(user=user)
-        
-        User.objects.filter(username=user.username).update(last_login=timezone.now())
+
+        User.objects.filter(username=user.username).update(
+            last_login=timezone.now())
         return Response({
             'role': user.profile.role,
             'token': token.key,
@@ -91,13 +92,18 @@ class RegisterView(generics.CreateAPIView):
 
     def post(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
+
+        if request.data.get('phone_number') and User.objects.filter(profile__phone_number=request.data.get('phone_number')).exists():
+            return Response({"error": "Phone number already registered."})
+
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
 
         # Generate and send OTP
-        otp = OTP.objects.create(user=user, phone_number=user.profile.phone_number)
+        otp = OTP.objects.create(
+            user=user, phone_number=user.profile.phone_number)
         otp.generate_otp()
-        
+
         # Here you would integrate with an SMS API to send the OTP to the user's phone number
         # Example with Twilio:
         send_otp_sms(user.profile.phone_number, otp.otp)
