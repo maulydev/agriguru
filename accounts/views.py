@@ -16,6 +16,9 @@ from django.utils import timezone
 from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
 from .serializers import CustomAuthTokenSerializer
+from lib.otp import send_otp_sms
+
+
 
 class CustomAuthToken(ObtainAuthToken):
     def get_serializer(self):
@@ -61,6 +64,9 @@ class CustomAuthToken(ObtainAuthToken):
             'token': token.key,
             'user_id': user.pk,
             'username': user.username,
+            'first_name': user.first_name,
+            'last_name': user.last_name,
+            'email': user.email,
             'farmer_id': Profile.objects.filter(user=user).first().id if Profile.objects.filter(user=user).exists() else None
         }, status=status.HTTP_200_OK)
 
@@ -94,7 +100,7 @@ class RegisterView(generics.CreateAPIView):
         
         # Here you would integrate with an SMS API to send the OTP to the user's phone number
         # Example with Twilio:
-        # send_sms(user.profile.phone_number, otp.otp)
+        send_otp_sms(user.profile.phone_number, otp.otp)
         print(f"OTP sent to {user.profile.phone_number}: {otp.otp}")
 
         return Response({
