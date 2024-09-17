@@ -11,7 +11,9 @@ class Order(models.Model):
         ('completed', 'Completed'),
     )
     
-    farmer = models.CharField(max_length=50, default='')
+    
+    # farmer = models.CharField(max_length=50, default='')
+    farmer = models.ForeignKey('accounts.Profile', on_delete=models.PROTECT, default=1)
     produce = models.ForeignKey('produce.Produce', on_delete=models.PROTECT, default=1)
     order_description = models.TextField(null=True, blank=True)
     quantity = models.PositiveIntegerField(null=True, blank=True, help_text="Tons")
