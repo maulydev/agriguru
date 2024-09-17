@@ -5,12 +5,13 @@ from .serializers import OrderCreateSerializer, OrderReadSerializer
 
 class OrderViewSet(viewsets.ModelViewSet):
     queryset = Order.objects.all()
-    filterset_fields = {
-        'farmer': ['iexact', 'icontains'],
-        'produce__name': ['iexact', 'icontains'],
-        'order_status': ['iexact'],
-        'order_date': ['exact', 'gte', 'lte'],
-    }
+    # filterset_fields = {
+    #     'farmer': ['iexact', 'icontains'],
+    #     'produce__name': ['iexact', 'icontains'],
+    #     'order_status': ['iexact'],
+    #     'order_date': ['exact', 'gte', 'lte'],
+    # }
+    filterset_fields = ['farmer', 'produce__name', 'order_status', 'order_date']
     
 
     def get_serializer_class(self):
