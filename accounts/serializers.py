@@ -2,9 +2,12 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 from .models import Profile, OTP
 
+
 class CustomAuthTokenSerializer(serializers.Serializer):
     phone_number = serializers.CharField(label="Phone Number")
-    password = serializers.CharField(label="Password", style={'input_type': 'password'}, trim_whitespace=False)
+    password = serializers.CharField(label="Password", style={
+                                     'input_type': 'password'}, trim_whitespace=False)
+
 
 class RegisterSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True, required=True, style={
@@ -21,7 +24,7 @@ class RegisterSerializer(serializers.ModelSerializer):
     def validate(self, data):
         # if data["phone_number"] and User.objects.filter(profile__phone_number=data["phone_number"]).exists():
         #     raise serializers.ValidationError("Phone number already registered.")
-        
+
         if data['password'] != data['password2']:
             raise serializers.ValidationError("Passwords do not match.")
         return data
@@ -43,7 +46,8 @@ class OTPVerifySerializer(serializers.Serializer):
     def validate(self, data):
         try:
             user = User.objects.get(profile__phone_number=data['phone_number'])
-            otp_record = OTP.objects.get(user=user, phone_number=data['phone_number'], otp=data['otp'])
+            otp_record = OTP.objects.get(
+                user=user, phone_number=data['phone_number'], otp=data['otp'])
             if otp_record.is_expired():
                 raise serializers.ValidationError("OTP has expired.")
         except (User.DoesNotExist, OTP.DoesNotExist):
@@ -60,25 +64,26 @@ class OTPVerifySerializer(serializers.Serializer):
         return user
 
 
-
 class ProfileSerializer(serializers.ModelSerializer):
     first_name = serializers.CharField(source='user.first_name')
     last_name = serializers.CharField(source='user.last_name')
     email = serializers.EmailField(source='user.email')
-    date_joined = serializers.DateTimeField(source='user.date_joined', read_only=True)
-    last_login = serializers.DateTimeField(source='user.last_login', read_only=True)
+    date_joined = serializers.DateTimeField(
+        source='user.date_joined', read_only=True)
+    last_login = serializers.DateTimeField(
+        source='user.last_login', read_only=True)
 
     class Meta:
         model = Profile
         fields = '__all__'
-        
+
     def update(self, instance, validated_data):
         user_data = validated_data.pop('user', {})
         user = instance.user
 
+        user.username = user_data.get('username', user.username)
         user.first_name = user_data.get('first_name', user.first_name)
         user.last_name = user_data.get('last_name', user.last_name)
         user.email = user_data.get('email', user.email)
         user.save()
         return instance
-
