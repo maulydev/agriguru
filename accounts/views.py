@@ -69,7 +69,11 @@ class CustomAuthToken(ObtainAuthToken):
             'first_name': user.first_name,
             'last_name': user.last_name,
             'email': user.email,
-            'farmer_id': Profile.objects.filter(user=user).first().id if Profile.objects.filter(user=user).exists() else None
+            'farmer_id': Profile.objects.filter(user=user).first().id if Profile.objects.filter(user=user).exists() else None,
+            "phone_number": user.profile.phone_number,
+            "address": user.profile.address,
+            "bio": user.profile.bio,
+            "profile_picture": user.profile.profile_picture.url if user.profile.profile_picture else None
         }, status=status.HTTP_200_OK)
 
 
