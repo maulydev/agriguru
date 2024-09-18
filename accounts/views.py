@@ -152,3 +152,4 @@ class ProfileViewSet(viewsets.ModelViewSet):
     ordering_fields = ['user__username', 'phone_number']
     ordering = ['user__username']
     lookup_field = 'user_id'
+    # parser_classes = (MultiPartParser, FormParser)

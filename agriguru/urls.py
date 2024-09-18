@@ -46,8 +46,7 @@ admin.site.site_title = "Dashboard"
 
 urlpatterns = [
     # path('', include('admin_material.urls')),
-
-    # path('', include('admin_soft.urls')),
+    path('', include('admin_soft.urls')),
     # path('', include('admin_volt.urls')),
     path('admin/', admin.site.urls),
     path('api/auth/', include('accounts.urls')),
