@@ -68,6 +68,7 @@ class ProfileSerializer(serializers.ModelSerializer):
     first_name = serializers.CharField(source='user.first_name')
     last_name = serializers.CharField(source='user.last_name')
     email = serializers.EmailField(source='user.email')
+    username = serializers.CharField(source='user.username')
     date_joined = serializers.DateTimeField(
         source='user.date_joined', read_only=True)
     last_login = serializers.DateTimeField(
@@ -80,10 +81,20 @@ class ProfileSerializer(serializers.ModelSerializer):
     def update(self, instance, validated_data):
         user_data = validated_data.pop('user', {})
         user = instance.user
-
+        
+        # Update Profile fields
+        instance.address = validated_data.get('address', instance.address)
+        instance.bio = validated_data.get('bio', instance.bio)
+        instance.profile_picture = validated_data.get(
+            'profile_picture', instance.profile_picture)
+        instance.save()
+        
+        # Update User fields
         user.username = user_data.get('username', user.username)
         user.first_name = user_data.get('first_name', user.first_name)
         user.last_name = user_data.get('last_name', user.last_name)
         user.email = user_data.get('email', user.email)
         user.save()
+
         return instance
+
