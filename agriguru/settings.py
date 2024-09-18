@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
-    'admin_material.apps.AdminMaterialDashboardConfig',
+    # 'admin_material.apps.AdminMaterialDashboardConfig',
     # 'admin_soft.apps.AdminSoftDashboardConfig',
     # 'admin_volt.apps.AdminVoltConfig',
     # "admin_interface",
