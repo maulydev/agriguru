@@ -34,10 +34,22 @@ class PurchaseRequestSerializer(serializers.ModelSerializer):
         }
 
 
-class PurchaseResponseSerializer(serializers.ModelSerializer):
+class PurchaseResponseCreateSerializer(serializers.ModelSerializer):
     class Meta:
         model = PurchaseResponse
         fields = '__all__'
+        
+
+class PurchaseResponseSerializer(serializers.ModelSerializer):
+    quantity_requested = serializers.IntegerField(source='purchase_request.quantity_requested', read_only=True)
+    produce = serializers.CharField(source='purchase_request.produce.name', read_only=True)
+    proposed_price = serializers.CharField(source='purchase_request.proposed_price', read_only=True)
+    pickup_date = serializers.DateField(source='purchase_request.pickup_date', read_only=True)
+    message = serializers.CharField(source='purchase_request.message', read_only=True)
+    class Meta:
+        model = PurchaseResponse
+        fields = '__all__'
+    
 
 
 class PurchaseRequestDetailSerializer(serializers.ModelSerializer):

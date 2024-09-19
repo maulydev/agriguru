@@ -1,6 +1,7 @@
 from rest_framework import viewsets
 from .models import PurchaseRequest, PurchaseResponse
-from .serializers import PurchaseRequestSerializer, PurchaseRequestDetailSerializer, PurchaseResponseSerializer
+from .serializers import PurchaseRequestSerializer, PurchaseRequestDetailSerializer, PurchaseResponseSerializer, PurchaseResponseCreateSerializer
+
 
 class PurchaseRequestViewSet(viewsets.ModelViewSet):
     queryset = PurchaseRequest.objects.all()
@@ -16,6 +17,11 @@ class PurchaseResponseViewSet(viewsets.ModelViewSet):
     queryset = PurchaseResponse.objects.all()
     serializer_class = PurchaseResponseSerializer
     filterset_fields = ['farmer', 'accepted', 'rejected']
+
+    def get_serializer_class(self):
+        if self.action == 'create':
+            return PurchaseResponseCreateSerializer
+        return PurchaseResponseSerializer
 
     def get_queryset(self):
         user = self.request.user
