@@ -17,6 +17,7 @@ from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
 from .serializers import CustomAuthTokenSerializer
 from lib.otp import send_otp_sms
+from rest_framework.parsers import MultiPartParser, FormParser
 
 
 class CustomAuthToken(ObtainAuthToken):
@@ -148,8 +149,5 @@ class ProfileViewSet(viewsets.ModelViewSet):
     permission_classes = [AllowAny]
     filter_backends = [filters.SearchFilter, DjangoFilterBackend]
     filterset_fields = ['user_id']
-    search_fields = ['user__username', 'phone_number']
-    ordering_fields = ['user__username', 'phone_number']
-    ordering = ['user__username']
     lookup_field = 'user_id'
-    # parser_classes = (MultiPartParser, FormParser)
+    parser_classes = (MultiPartParser, FormParser)

@@ -3,7 +3,7 @@ from .models import Order
 
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
-    list_display = ('farmer', 'produce', 'quantity', 'order_status', 'order_date', 'last_updated')
+    list_display = ('farmer', 'order_number', 'produce', 'quantity', 'order_status', 'order_date', 'last_updated')
     list_filter = ('order_status', 'order_date')
     search_fields = ('farmer', 'produce', 'quantity', 'order_status')
     readonly_fields = ('order_date', 'last_updated')

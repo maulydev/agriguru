@@ -18,7 +18,7 @@ schema_view = get_schema_view(
     openapi.Info(
         title="AgriGuru API",
         default_version='v1',
-        description="API for AgriGuru",
+        description="API for Ekum Chain",
         terms_of_service="https://www.google.com/policies/terms/",
         contact=openapi.Contact(email="contact@snippets.local"),
         license=openapi.License(name="BSD License"),
