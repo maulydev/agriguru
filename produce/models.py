@@ -14,7 +14,7 @@ class Produce(models.Model):
 
 class Inventory(models.Model):
     produce = models.OneToOneField(Produce, on_delete=models.CASCADE)
-    quantity = models.PositiveIntegerField(default=0)
+    quantity = models.PositiveIntegerField(default=0, help_text='Tons')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
