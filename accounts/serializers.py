@@ -76,12 +76,46 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ['username', 'email', 'first_name', 'last_name']  # Add other fields you want to update
 
 
+# class ProfileSerializer(serializers.ModelSerializer):
+#     # first_name = serializers.CharField(source='user.first_name', required=False)
+#     # last_name = serializers.CharField(source='user.last_name', required=False)
+#     # email = serializers.EmailField(source='user.email', required=False)
+#     # username = serializers.CharField(source='user.username', required=False)
+
+#     class Meta:
+#         model = Profile
+#         fields = '__all__'
+
+
 class ProfileSerializer(serializers.ModelSerializer):
-    # first_name = serializers.CharField(source='user.first_name', required=False)
-    # last_name = serializers.CharField(source='user.last_name', required=False)
-    # email = serializers.EmailField(source='user.email', required=False)
-    # username = serializers.CharField(source='user.username', required=False)
+    # Fields from the User model
+    first_name = serializers.CharField(source='user.first_name')
+    last_name = serializers.CharField(source='user.last_name')
+    email = serializers.EmailField(source='user.email')
+    username = serializers.CharField(source='user.username')
 
     class Meta:
         model = Profile
-        fields = '__all__'
+        fields = '__all__'  # Include all fields from Profile, including user fields
+
+    def update(self, instance, validated_data):
+        # Extract user data
+        user_data = {
+            'first_name': validated_data.pop('user', {}).get('first_name', instance.user.first_name),
+            'last_name': validated_data.pop('user', {}).get('last_name', instance.user.last_name),
+            'email': validated_data.pop('user', {}).get('email', instance.user.email),
+            'username': validated_data.pop('user', {}).get('username', instance.user.username)
+        }
+
+        # Update Profile fields
+        for attr, value in validated_data.items():
+            setattr(instance, attr, value)
+        
+        # Update the related User fields
+        user = instance.user
+        for attr, value in user_data.items():
+            setattr(user, attr, value)
+        user.save()  # Save the updated User
+
+        instance.save()  # Save the updated Profile
+        return instance
