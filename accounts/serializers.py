@@ -77,10 +77,10 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class ProfileSerializer(serializers.ModelSerializer):
-    first_name = serializers.CharField(source='user.first_name', allow_blank=True)
-    last_name = serializers.CharField(source='user.last_name', all_allow=True)
-    email = serializers.EmailField(source='user.email', allow_blank=True)
-    username = serializers.CharField(source='user.username', allow_blank=True)
+    first_name = serializers.CharField(source='user.first_name', required=True)
+    last_name = serializers.CharField(source='user.last_name', required=True)
+    email = serializers.EmailField(source='user.email', required=True)
+    username = serializers.CharField(source='user.username', required=True)
 
     class Meta:
         model = Profile
