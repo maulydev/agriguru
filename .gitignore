@@ -6,6 +6,7 @@ __pycache__/
 media/*
 staticfiles/*
 templates/
+*.sqlite3
 
 # C extensions
 *.so
