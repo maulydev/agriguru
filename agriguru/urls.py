@@ -38,9 +38,9 @@ router.register(f'inventory', InventoryViewSet)
 router.register(f'payment', PaymentViewSet)
 
 
-admin.site.index_title = "AgriGuru Administration"
-admin.site.name = "AgriGuru"
-admin.site.site_header = "AgriGuru"
+admin.site.index_title = "Ekum Chain Administration"
+admin.site.name = "Ekum Chain"
+admin.site.site_header = "Ekum Chain"
 admin.site.site_title = "Dashboard"
 
 
