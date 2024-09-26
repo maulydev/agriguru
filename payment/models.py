@@ -25,7 +25,7 @@ class Payment(models.Model):
     payment_method = models.CharField(
         max_length=20, choices=PAYMENT_METHOD, default='cash')
     payment_status = models.CharField(
-        max_length=20, choices=PAYMENT_STATUS, default='pending')
+        max_length=20, choices=PAYMENT_STATUS, default='paid')
     payment_date = models.DateTimeField(auto_now_add=True)
     payment_reference = models.CharField(
         max_length=100, unique=True, blank=True)
@@ -49,7 +49,7 @@ def update_order_status(sender, instance, **kwargs):
     order = instance.order
     if instance.payment_status == 'paid':
         order.order_status = 'completed'
-        send_sms(order.farmer.phone_number, f'Payment of GHC {instance.amount} received. for {order.order_number}')
+        send_sms(order.farmer.phone_number, f'TEST MESSAGE:\nPayment of GHC {instance.amount} received. for {order.order_number} from EKU CHAIN')
     else:
         order.order_status = 'pending'
     order.save()
