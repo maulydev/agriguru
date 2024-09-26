@@ -1,0 +1,2547 @@
+[
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "filters",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "routers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "filters",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "rest_framework.authtoken.models",
+        "description": "rest_framework.authtoken.models",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.models",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "rest_framework.authtoken.models",
+        "description": "rest_framework.authtoken.models",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ObtainAuthToken",
+        "importPath": "rest_framework.authtoken.views",
+        "description": "rest_framework.authtoken.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.views",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoFilterBackend",
+        "importPath": "django_filters.rest_framework",
+        "description": "django_filters.rest_framework",
+        "isExtraImport": true,
+        "detail": "django_filters.rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "send_otp_sms",
+        "importPath": "lib.otp",
+        "description": "lib.otp",
+        "isExtraImport": true,
+        "detail": "lib.otp",
+        "documentation": {}
+    },
+    {
+        "label": "send_sms",
+        "importPath": "lib.otp",
+        "description": "lib.otp",
+        "isExtraImport": true,
+        "detail": "lib.otp",
+        "documentation": {}
+    },
+    {
+        "label": "MultiPartParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "FormParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "MultiPartParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "FormParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_view",
+        "importPath": "drf_yasg.views",
+        "description": "drf_yasg.views",
+        "isExtraImport": true,
+        "detail": "drf_yasg.views",
+        "documentation": {}
+    },
+    {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileViewSet",
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "isExtraImport": true,
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProduceViewSet",
+        "importPath": "produce.views",
+        "description": "produce.views",
+        "isExtraImport": true,
+        "detail": "produce.views",
+        "documentation": {}
+    },
+    {
+        "label": "InventoryViewSet",
+        "importPath": "produce.views",
+        "description": "produce.views",
+        "isExtraImport": true,
+        "detail": "produce.views",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseRequestViewSet",
+        "importPath": "purchase_request.views",
+        "description": "purchase_request.views",
+        "isExtraImport": true,
+        "detail": "purchase_request.views",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseResponseViewSet",
+        "importPath": "purchase_request.views",
+        "description": "purchase_request.views",
+        "isExtraImport": true,
+        "detail": "purchase_request.views",
+        "documentation": {}
+    },
+    {
+        "label": "PostViewSet",
+        "importPath": "posts.views",
+        "description": "posts.views",
+        "isExtraImport": true,
+        "detail": "posts.views",
+        "documentation": {}
+    },
+    {
+        "label": "OrderViewSet",
+        "importPath": "orders.views",
+        "description": "orders.views",
+        "isExtraImport": true,
+        "detail": "orders.views",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentViewSet",
+        "importPath": "payment.views",
+        "description": "payment.views",
+        "isExtraImport": true,
+        "detail": "payment.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProduceSerializer",
+        "importPath": "produce.serializers",
+        "description": "produce.serializers",
+        "isExtraImport": true,
+        "detail": "produce.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProduceSerializer",
+        "importPath": "produce.serializers",
+        "description": "produce.serializers",
+        "isExtraImport": true,
+        "detail": "produce.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileSerializer",
+        "importPath": "accounts.serializers",
+        "description": "accounts.serializers",
+        "isExtraImport": true,
+        "detail": "accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileSerializer",
+        "importPath": "accounts.serializers",
+        "description": "accounts.serializers",
+        "isExtraImport": true,
+        "detail": "accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "Produce",
+        "importPath": "produce.models",
+        "description": "produce.models",
+        "isExtraImport": true,
+        "detail": "produce.models",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "accounts.migrations.0001_initial",
+        "description": "accounts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Profile',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "accounts.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "accounts.migrations.0002_profile_address_profile_phone_number_and_more",
+        "description": "accounts.migrations.0002_profile_address_profile_phone_number_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('accounts', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='profile',\n            name='address',\n            field=models.TextField(blank=True, null=True),\n        ),",
+        "detail": "accounts.migrations.0002_profile_address_profile_phone_number_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "accounts.migrations.0003_profile_is_verified_otp",
+        "description": "accounts.migrations.0003_profile_is_verified_otp",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('accounts', '0002_profile_address_profile_phone_number_and_more'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='profile',\n            name='is_verified',\n            field=models.BooleanField(default=False),",
+        "detail": "accounts.migrations.0003_profile_is_verified_otp",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "accounts.migrations.0004_otp_phone_number",
+        "description": "accounts.migrations.0004_otp_phone_number",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('accounts', '0003_profile_is_verified_otp'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='otp',\n            name='phone_number',\n            field=models.CharField(blank=True, max_length=15, null=True),\n        ),",
+        "detail": "accounts.migrations.0004_otp_phone_number",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "accounts.migrations.0005_profile_bio",
+        "description": "accounts.migrations.0005_profile_bio",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('accounts', '0004_otp_phone_number'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='profile',\n            name='bio',\n            field=models.TextField(blank=True, null=True),\n        ),",
+        "detail": "accounts.migrations.0005_profile_bio",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "accounts.migrations.0006_alter_profile_phone_number",
+        "description": "accounts.migrations.0006_alter_profile_phone_number",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('accounts', '0005_profile_bio'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='profile',\n            name='phone_number',\n            field=models.CharField(blank=True, max_length=15, null=True, unique=True),\n        ),",
+        "detail": "accounts.migrations.0006_alter_profile_phone_number",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileAdmin",
+        "kind": 6,
+        "importPath": "accounts.admin",
+        "description": "accounts.admin",
+        "peekOfCode": "class ProfileAdmin(admin.ModelAdmin):\n    list_display = ['user', 'role', 'is_verified', 'phone_number', 'address', 'profile_picture']\n    search_fields = ['user__username', 'user__email', 'is_verified', 'phone_number', 'address']\n    list_filter = ['role', 'is_verified']\n    ordering = ['user__username', 'is_verified',]\n@admin.register(OTP)\nclass OTPAdmin(admin.ModelAdmin):\n    list_display = ['user', 'phone_number', 'otp', 'created_at']\n    search_fields = ['user__username', 'phone_number', 'otp']\n    ordering = ['-created_at']",
+        "detail": "accounts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "OTPAdmin",
+        "kind": 6,
+        "importPath": "accounts.admin",
+        "description": "accounts.admin",
+        "peekOfCode": "class OTPAdmin(admin.ModelAdmin):\n    list_display = ['user', 'phone_number', 'otp', 'created_at']\n    search_fields = ['user__username', 'phone_number', 'otp']\n    ordering = ['-created_at']",
+        "detail": "accounts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "accounts.apps",
+        "description": "accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'\n    def ready(self):\n        import accounts.signals",
+        "detail": "accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Profile",
+        "kind": 6,
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "peekOfCode": "class Profile(models.Model):\n    ROLE_CHOICES = [\n        ('farmer', 'Farmer'),\n        ('expert', 'Expert'),\n        ('admin', 'Admin'),\n    ]\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    role = models.CharField(max_length=10, choices=ROLE_CHOICES, default=ROLE_CHOICES[0][0])\n    phone_number = models.CharField(max_length=15, blank=True, null=True, unique=True)\n    address = models.TextField(blank=True, null=True)",
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "OTP",
+        "kind": 6,
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "peekOfCode": "class OTP(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    phone_number = models.CharField(max_length=15, blank=True, null=True)\n    otp = models.CharField(max_length=6)\n    created_at = models.DateTimeField(default=timezone.now)\n    def is_expired(self):\n        return timezone.now() > self.created_at + timezone.timedelta(minutes=10)\n    def generate_otp(self):\n        self.otp = ''.join(random.choices(string.digits, k=6))\n        self.created_at = timezone.now()",
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomAuthTokenSerializer",
+        "kind": 6,
+        "importPath": "accounts.serializers",
+        "description": "accounts.serializers",
+        "peekOfCode": "class CustomAuthTokenSerializer(serializers.Serializer):\n    phone_number = serializers.CharField(label=\"Phone Number\")\n    password = serializers.CharField(label=\"Password\", style={\n                                     'input_type': 'password'}, trim_whitespace=False)\nclass RegisterSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(write_only=True, required=True, style={\n                                     'input_type': 'password'})\n    password2 = serializers.CharField(write_only=True, required=True, style={\n                                      'input_type': 'password'}, label=\"Confirm password\")\n    phone_number = serializers.CharField(",
+        "detail": "accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "kind": 6,
+        "importPath": "accounts.serializers",
+        "description": "accounts.serializers",
+        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(write_only=True, required=True, style={\n                                     'input_type': 'password'})\n    password2 = serializers.CharField(write_only=True, required=True, style={\n                                      'input_type': 'password'}, label=\"Confirm password\")\n    phone_number = serializers.CharField(\n        write_only=True, required=True, label=\"Phone Number\")\n    class Meta:\n        model = User\n        fields = ('username', 'phone_number', 'password', 'password2')",
+        "detail": "accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OTPVerifySerializer",
+        "kind": 6,
+        "importPath": "accounts.serializers",
+        "description": "accounts.serializers",
+        "peekOfCode": "class OTPVerifySerializer(serializers.Serializer):\n    otp = serializers.CharField(max_length=6)\n    phone_number = serializers.CharField(max_length=15)\n    def validate(self, data):\n        try:\n            user = User.objects.get(profile__phone_number=data['phone_number'])\n            otp_record = OTP.objects.get(\n                user=user, phone_number=data['phone_number'], otp=data['otp'])\n            if otp_record.is_expired():\n                raise serializers.ValidationError(\"OTP has expired.\")",
+        "detail": "accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "accounts.serializers",
+        "description": "accounts.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'first_name', 'last_name']  # Add other fields you want to update\n# class ProfileSerializer(serializers.ModelSerializer):\n#     # first_name = serializers.CharField(source='user.first_name', required=False)\n#     # last_name = serializers.CharField(source='user.last_name', required=False)\n#     # email = serializers.EmailField(source='user.email', required=False)\n#     # username = serializers.CharField(source='user.username', required=False)\n#     class Meta:",
+        "detail": "accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileSerializer",
+        "kind": 6,
+        "importPath": "accounts.serializers",
+        "description": "accounts.serializers",
+        "peekOfCode": "class ProfileSerializer(serializers.ModelSerializer):\n    # Fields from the User model\n    first_name = serializers.CharField(source='user.first_name')\n    last_name = serializers.CharField(source='user.last_name')\n    email = serializers.EmailField(source='user.email')\n    username = serializers.CharField(source='user.username')\n    class Meta:\n        model = Profile\n        fields = '__all__'  # Include all fields from Profile, including user fields\n    def update(self, instance, validated_data):",
+        "detail": "accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "create_auth_token",
+        "kind": 2,
+        "importPath": "accounts.signals",
+        "description": "accounts.signals",
+        "peekOfCode": "def create_auth_token(sender, instance=None, created=False, **kwargs):\n    if created:\n        Token.objects.create(user=instance)\n        # Profile.objects.create(user=instance)\n        # print(f\"Profile created for {instance}\")",
+        "detail": "accounts.signals",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "accounts.urls",
+        "description": "accounts.urls",
+        "peekOfCode": "urlpatterns = [\n    path('login/', CustomAuthToken.as_view(), name='auth_login'),\n    path('logout/', LogoutView.as_view(), name='auth_logout'),\n    path('register/', RegisterView.as_view(), name='auth_register'),\n    path('verify-otp/', OTPVerifyView.as_view(), name='verify_otp'),\n]",
+        "detail": "accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CustomAuthToken",
+        "kind": 6,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "class CustomAuthToken(ObtainAuthToken):\n    def get_serializer(self):\n        return CustomAuthTokenSerializer()\n    def post(self, request, *args, **kwargs):\n        # Custom authentication using phone number and password\n        phone_number = request.data.get('phone_number')\n        password = request.data.get('password')\n        try:\n            profile = Profile.objects.get(phone_number=phone_number)\n            user = profile.user",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "kind": 6,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "class LogoutView(APIView):\n    permission_classes = [IsAuthenticated]\n    def post(self, request):\n        try:\n            # Get the user's token\n            token = Token.objects.get(user=request.user)\n            # Delete the token\n            token.delete()\n            return Response({\"message\": \"Successfully logged out.\"}, status=status.HTTP_200_OK)\n        except Token.DoesNotExist:",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "kind": 6,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "class RegisterView(generics.CreateAPIView):\n    serializer_class = RegisterSerializer\n    permission_classes = [AllowAny]\n    def post(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)\n        if request.data.get('phone_number') and User.objects.filter(profile__phone_number=request.data.get('phone_number')).exists():\n            return Response({\"error\": \"Phone number already registered.\"}, status=status.HTTP_400_BAD_REQUEST)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()\n        # Generate and send OTP",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "OTPVerifyView",
+        "kind": 6,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "class OTPVerifyView(generics.GenericAPIView):\n    serializer_class = OTPVerifySerializer\n    permission_classes = [AllowAny]\n    def post(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        user = serializer.save()\n        return Response({\n            \"message\": \"Phone number verified successfully.\",\n            \"user\": {",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileViewSet",
+        "kind": 6,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "class ProfileViewSet(viewsets.ModelViewSet):\n    queryset = Profile.objects.all()\n    serializer_class = ProfileSerializer\n    permission_classes = [AllowAny]\n    filter_backends = [filters.SearchFilter, DjangoFilterBackend]\n    filterset_fields = ['user_id']\n    lookup_field = 'user_id'\n    parser_classes = (MultiPartParser, FormParser)",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "agriguru.asgi",
+        "description": "agriguru.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "agriguru.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-v7l40q82=rzy!g^w5&j&mxkw5a(%ypu2sq*g7(#0e9v$*wo#g!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-v7l40q82=rzy!g^w5&j&mxkw5a(%ypu2sq*g7(#0e9v$*wo#g!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    # 'admin_material.apps.AdminMaterialDashboardConfig',\n    # 'admin_soft.apps.AdminSoftDashboardConfig',\n    # 'admin_volt.apps.AdminVoltConfig',\n    \"admin_interface\",",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    # 'admin_material.apps.AdminMaterialDashboardConfig',\n    # 'admin_soft.apps.AdminSoftDashboardConfig',\n    # 'admin_volt.apps.AdminVoltConfig',\n    \"admin_interface\",\n    \"colorfield\",\n    'django.contrib.admin',",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    # 'admin_material.apps.AdminMaterialDashboardConfig',\n    # 'admin_soft.apps.AdminSoftDashboardConfig',\n    # 'admin_volt.apps.AdminVoltConfig',\n    \"admin_interface\",\n    \"colorfield\",\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    # 'admin_material.apps.AdminMaterialDashboardConfig',\n    # 'admin_soft.apps.AdminSoftDashboardConfig',\n    # 'admin_volt.apps.AdminVoltConfig',\n    \"admin_interface\",\n    \"colorfield\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework.authentication.TokenAuthentication',\n    ],\n    # 'DEFAULT_PERMISSION_CLASSES': [\n    #     'rest_framework.permissions.IsAuthenticated',\n    # ],\n    'DEFAULT_FILTER_BACKENDS': [\n        'django_filters.rest_framework.DjangoFilterBackend',\n    ],",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\nROOT_URLCONF = 'agriguru.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "ROOT_URLCONF = 'agriguru.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'agriguru.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_CREDENTIALS",
+        "kind": 5,
+        "importPath": "agriguru.settings",
+        "description": "agriguru.settings",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True",
+        "detail": "agriguru.settings",
+        "documentation": {}
+    },
+    {
+        "label": "schema_view",
+        "kind": 5,
+        "importPath": "agriguru.urls",
+        "description": "agriguru.urls",
+        "peekOfCode": "schema_view = get_schema_view(\n    openapi.Info(\n        title=\"AgriGuru API\",\n        default_version='v1',\n        description=\"API for Ekum Chain\",\n        terms_of_service=\"https://www.google.com/policies/terms/\",\n        contact=openapi.Contact(email=\"contact@snippets.local\"),\n        license=openapi.License(name=\"BSD License\"),\n    ),\n    public=True,",
+        "detail": "agriguru.urls",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "agriguru.urls",
+        "description": "agriguru.urls",
+        "peekOfCode": "router = routers.DefaultRouter()\nrouter.register(r'profiles', ProfileViewSet)\nrouter.register(r'produces', ProduceViewSet)\nrouter.register(r'posts', PostViewSet)\nrouter.register(f'purchase-request', PurchaseRequestViewSet)\nrouter.register(f'purchase-response', PurchaseResponseViewSet)\nrouter.register(f'orders', OrderViewSet)\nrouter.register(f'inventory', InventoryViewSet)\nrouter.register(f'payment', PaymentViewSet)\nadmin.site.index_title = \"Ekum Chain Administration\"",
+        "detail": "agriguru.urls",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.index_title",
+        "kind": 5,
+        "importPath": "agriguru.urls",
+        "description": "agriguru.urls",
+        "peekOfCode": "admin.site.index_title = \"Ekum Chain Administration\"\nadmin.site.name = \"Ekum Chain\"\nadmin.site.site_header = \"Ekum Chain\"\nadmin.site.site_title = \"Dashboard\"\nurlpatterns = [\n    # path('', include('admin_material.urls')),\n    # path('', include('admin_soft.urls')),\n    # path('', include('admin_volt.urls')),\n    path('admin/', admin.site.urls),\n    path('api/auth/', include('accounts.urls')),",
+        "detail": "agriguru.urls",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.name",
+        "kind": 5,
+        "importPath": "agriguru.urls",
+        "description": "agriguru.urls",
+        "peekOfCode": "admin.site.name = \"Ekum Chain\"\nadmin.site.site_header = \"Ekum Chain\"\nadmin.site.site_title = \"Dashboard\"\nurlpatterns = [\n    # path('', include('admin_material.urls')),\n    # path('', include('admin_soft.urls')),\n    # path('', include('admin_volt.urls')),\n    path('admin/', admin.site.urls),\n    path('api/auth/', include('accounts.urls')),\n    path('api/', include(router.urls)),",
+        "detail": "agriguru.urls",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "agriguru.urls",
+        "description": "agriguru.urls",
+        "peekOfCode": "admin.site.site_header = \"Ekum Chain\"\nadmin.site.site_title = \"Dashboard\"\nurlpatterns = [\n    # path('', include('admin_material.urls')),\n    # path('', include('admin_soft.urls')),\n    # path('', include('admin_volt.urls')),\n    path('admin/', admin.site.urls),\n    path('api/auth/', include('accounts.urls')),\n    path('api/', include(router.urls)),\n    path('swagger/', schema_view.with_ui('swagger',",
+        "detail": "agriguru.urls",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_title",
+        "kind": 5,
+        "importPath": "agriguru.urls",
+        "description": "agriguru.urls",
+        "peekOfCode": "admin.site.site_title = \"Dashboard\"\nurlpatterns = [\n    # path('', include('admin_material.urls')),\n    # path('', include('admin_soft.urls')),\n    # path('', include('admin_volt.urls')),\n    path('admin/', admin.site.urls),\n    path('api/auth/', include('accounts.urls')),\n    path('api/', include(router.urls)),\n    path('swagger/', schema_view.with_ui('swagger',\n         cache_timeout=0), name='schema-swagger-ui'),",
+        "detail": "agriguru.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "agriguru.urls",
+        "description": "agriguru.urls",
+        "peekOfCode": "urlpatterns = [\n    # path('', include('admin_material.urls')),\n    # path('', include('admin_soft.urls')),\n    # path('', include('admin_volt.urls')),\n    path('admin/', admin.site.urls),\n    path('api/auth/', include('accounts.urls')),\n    path('api/', include(router.urls)),\n    path('swagger/', schema_view.with_ui('swagger',\n         cache_timeout=0), name='schema-swagger-ui'),\n    path('redoc/', schema_view.with_ui('redoc',",
+        "detail": "agriguru.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "agriguru.wsgi",
+        "description": "agriguru.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "agriguru.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "send_otp_sms",
+        "kind": 2,
+        "importPath": "lib.otp",
+        "description": "lib.otp",
+        "peekOfCode": "def send_otp_sms(phone_number, otp):\n    # url = 'https://api.msg91.com/api/sendhttp.php'\n    api_key = API_KEY\n    sender_id = SENDER_ID\n    message = f'Your Verfication code is: {otp}'\n    recipient = phone_number\n    url = f'https://sms.arkesel.com/sms/api?action=send-sms&api_key={api_key}&to={recipient}&from={sender_id}&sms={message}'\n    response = requests.get(url)\n    return response.json()\ndef send_sms(phone_number, otp):",
+        "detail": "lib.otp",
+        "documentation": {}
+    },
+    {
+        "label": "send_sms",
+        "kind": 2,
+        "importPath": "lib.otp",
+        "description": "lib.otp",
+        "peekOfCode": "def send_sms(phone_number, otp):\n    api_key = API_KEY\n    sender_id = SENDER_ID\n    message = f'{otp}'\n    recipient = phone_number\n    url = f'https://sms.arkesel.com/sms/api?action=send-sms&api_key={api_key}&to={recipient}&from={sender_id}&sms={message}'\n    response = requests.get(url)\n    return response.json()",
+        "detail": "lib.otp",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "lib.otp",
+        "description": "lib.otp",
+        "peekOfCode": "API_KEY = os.getenv('API_KEY')\nSENDER_ID = os.getenv('SENDER_ID')\ndef send_otp_sms(phone_number, otp):\n    # url = 'https://api.msg91.com/api/sendhttp.php'\n    api_key = API_KEY\n    sender_id = SENDER_ID\n    message = f'Your Verfication code is: {otp}'\n    recipient = phone_number\n    url = f'https://sms.arkesel.com/sms/api?action=send-sms&api_key={api_key}&to={recipient}&from={sender_id}&sms={message}'\n    response = requests.get(url)",
+        "detail": "lib.otp",
+        "documentation": {}
+    },
+    {
+        "label": "SENDER_ID",
+        "kind": 5,
+        "importPath": "lib.otp",
+        "description": "lib.otp",
+        "peekOfCode": "SENDER_ID = os.getenv('SENDER_ID')\ndef send_otp_sms(phone_number, otp):\n    # url = 'https://api.msg91.com/api/sendhttp.php'\n    api_key = API_KEY\n    sender_id = SENDER_ID\n    message = f'Your Verfication code is: {otp}'\n    recipient = phone_number\n    url = f'https://sms.arkesel.com/sms/api?action=send-sms&api_key={api_key}&to={recipient}&from={sender_id}&sms={message}'\n    response = requests.get(url)\n    return response.json()",
+        "detail": "lib.otp",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "orders.migrations.0001_initial",
+        "description": "orders.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('posts', '0003_post_image'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Order',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "orders.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "orders.migrations.0002_remove_order_payment_method_and_more",
+        "description": "orders.migrations.0002_remove_order_payment_method_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('orders', '0001_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='order',\n            name='payment_method',\n        ),\n        migrations.RemoveField(",
+        "detail": "orders.migrations.0002_remove_order_payment_method_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "orders.migrations.0003_remove_order_payment_date",
+        "description": "orders.migrations.0003_remove_order_payment_date",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('orders', '0002_remove_order_payment_method_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='order',\n            name='payment_date',\n        ),\n    ]",
+        "detail": "orders.migrations.0003_remove_order_payment_date",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "orders.migrations.0004_order_quantity",
+        "description": "orders.migrations.0004_order_quantity",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('orders', '0003_remove_order_payment_date'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='order',\n            name='quantity',\n            field=models.PositiveIntegerField(blank=True, help_text='Tons', null=True),\n        ),",
+        "detail": "orders.migrations.0004_order_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "orders.migrations.0005_remove_order_post_order_farmer_and_more",
+        "description": "orders.migrations.0005_remove_order_post_order_farmer_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('orders', '0004_order_quantity'),\n        ('produce', '0002_inventory'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='order',\n            name='post',\n        ),",
+        "detail": "orders.migrations.0005_remove_order_post_order_farmer_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "orders.migrations.0006_alter_order_farmer",
+        "description": "orders.migrations.0006_alter_order_farmer",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('accounts', '0006_alter_profile_phone_number'),\n        ('orders', '0005_remove_order_post_order_farmer_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='order',\n            name='farmer',\n            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.PROTECT, to='accounts.profile'),",
+        "detail": "orders.migrations.0006_alter_order_farmer",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "orders.migrations.0007_order_order_number",
+        "description": "orders.migrations.0007_order_order_number",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('orders', '0006_alter_order_farmer'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='order',\n            name='order_number',\n            field=models.CharField(blank=True, max_length=50, null=True, unique=True),\n        ),",
+        "detail": "orders.migrations.0007_order_order_number",
+        "documentation": {}
+    },
+    {
+        "label": "OrderAdmin",
+        "kind": 6,
+        "importPath": "orders.admin",
+        "description": "orders.admin",
+        "peekOfCode": "class OrderAdmin(admin.ModelAdmin):\n    list_display = ('farmer', 'order_number', 'produce', 'quantity', 'order_status', 'order_date', 'last_updated')\n    list_filter = ('order_status', 'order_date')\n    search_fields = ('farmer', 'produce', 'quantity', 'order_status')\n    readonly_fields = ('order_date', 'last_updated')\n    date_hierarchy = 'order_date'",
+        "detail": "orders.admin",
+        "documentation": {}
+    },
+    {
+        "label": "OrdersConfig",
+        "kind": 6,
+        "importPath": "orders.apps",
+        "description": "orders.apps",
+        "peekOfCode": "class OrdersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'orders'",
+        "detail": "orders.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "orders.models",
+        "description": "orders.models",
+        "peekOfCode": "class Order(models.Model):\n    ORDER_STATUS = (\n        ('pending', 'Pending'),\n        ('accepted', 'Accepted'),\n        ('rejected', 'Rejected'),\n        ('cancelled', 'Cancelled'),\n        ('completed', 'Completed'),\n    )\n    order_number = models.CharField(max_length=50, unique=True, blank=True, null=True)\n    farmer = models.ForeignKey('accounts.Profile', on_delete=models.PROTECT, default=1)",
+        "detail": "orders.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreateSerializer",
+        "kind": 6,
+        "importPath": "orders.serializers",
+        "description": "orders.serializers",
+        "peekOfCode": "class OrderCreateSerializer(ModelSerializer):\n    class Meta:\n        model = Order\n        fields = '__all__'\nclass OrderReadSerializer(ModelSerializer):\n    farmer= ProfileSerializer(read_only=True)\n    produce = ProduceSerializer(read_only=True)\n    class Meta:\n        model = Order\n        fields = '__all__'",
+        "detail": "orders.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderReadSerializer",
+        "kind": 6,
+        "importPath": "orders.serializers",
+        "description": "orders.serializers",
+        "peekOfCode": "class OrderReadSerializer(ModelSerializer):\n    farmer= ProfileSerializer(read_only=True)\n    produce = ProduceSerializer(read_only=True)\n    class Meta:\n        model = Order\n        fields = '__all__'",
+        "detail": "orders.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderViewSet",
+        "kind": 6,
+        "importPath": "orders.views",
+        "description": "orders.views",
+        "peekOfCode": "class OrderViewSet(viewsets.ModelViewSet):\n    queryset = Order.objects.all()\n    # filterset_fields = {\n    #     'farmer': ['iexact', 'icontains'],\n    #     'produce__name': ['iexact', 'icontains'],\n    #     'order_status': ['iexact'],\n    #     'order_date': ['exact', 'gte', 'lte'],\n    # }\n    filterset_fields = ['farmer', 'produce__name', 'order_status', 'order_date']\n    def get_serializer_class(self):",
+        "detail": "orders.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "payment.migrations.0001_initial",
+        "description": "payment.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('orders', '0002_remove_order_payment_method_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Payment',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "payment.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "payment.migrations.0002_alter_payment_order",
+        "description": "payment.migrations.0002_alter_payment_order",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('orders', '0002_remove_order_payment_method_and_more'),\n        ('payment', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='payment',\n            name='order',\n            field=models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, related_name='payment', to='orders.order'),",
+        "detail": "payment.migrations.0002_alter_payment_order",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "payment.migrations.0003_alter_payment_payment_description",
+        "description": "payment.migrations.0003_alter_payment_payment_description",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('payment', '0002_alter_payment_order'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='payment',\n            name='payment_description',\n            field=models.TextField(blank=True, null=True),\n        ),",
+        "detail": "payment.migrations.0003_alter_payment_payment_description",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "payment.migrations.0004_alter_payment_order",
+        "description": "payment.migrations.0004_alter_payment_order",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('orders', '0003_remove_order_payment_date'),\n        ('payment', '0003_alter_payment_payment_description'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='payment',\n            name='order',\n            field=models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to='orders.order'),",
+        "detail": "payment.migrations.0004_alter_payment_order",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentAdmin",
+        "kind": 6,
+        "importPath": "payment.admin",
+        "description": "payment.admin",
+        "peekOfCode": "class PaymentAdmin(admin.ModelAdmin):\n    list_display = ('payment_reference', 'order', 'amount', 'payment_method', 'payment_status', 'payment_date')\n    list_filter = ('payment_method', 'payment_status', 'payment_date')\n    search_fields = ('payment_reference', 'order__order_number', 'payment_description')\n    readonly_fields = ('payment_reference', 'payment_date')\n    fieldsets = (\n        (None, {\n            'fields': ('order', 'amount', 'payment_method', 'payment_status', 'payment_reference', 'payment_date')\n        }),\n        ('Additional Information', {",
+        "detail": "payment.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentConfig",
+        "kind": 6,
+        "importPath": "payment.apps",
+        "description": "payment.apps",
+        "peekOfCode": "class PaymentConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'payment'",
+        "detail": "payment.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "kind": 6,
+        "importPath": "payment.models",
+        "description": "payment.models",
+        "peekOfCode": "class Payment(models.Model):\n    PAYMENT_METHOD = (\n        ('cash', 'Cash'),\n        ('momo', 'Momo'),\n        ('bank', 'Bank')\n    )\n    PAYMENT_STATUS = (\n        ('pending', 'Pending'),\n        ('paid', 'Paid'),\n        ('failed', 'Failed'),",
+        "detail": "payment.models",
+        "documentation": {}
+    },
+    {
+        "label": "update_order_status",
+        "kind": 2,
+        "importPath": "payment.models",
+        "description": "payment.models",
+        "peekOfCode": "def update_order_status(sender, instance, **kwargs):\n    order = instance.order\n    if instance.payment_status == 'paid':\n        order.order_status = 'completed'\n        send_sms(order.farmer.phone_number, f'Payment of GHC {instance.amount} received. for {order.order_number}')\n    else:\n        order.order_status = 'pending'\n    order.save()",
+        "detail": "payment.models",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentSerializer",
+        "kind": 6,
+        "importPath": "payment.serializers",
+        "description": "payment.serializers",
+        "peekOfCode": "class PaymentSerializer(ModelSerializer):\n    class Meta:\n        model = Payment\n        fields = '__all__'",
+        "detail": "payment.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentViewSet",
+        "kind": 6,
+        "importPath": "payment.views",
+        "description": "payment.views",
+        "peekOfCode": "class PaymentViewSet(ModelViewSet):\n    queryset = Payment.objects.all()\n    serializer_class = PaymentSerializer\n    filterset_fields = ['payment_method', 'payment_status', 'payment_date', 'order__id']\n    search_fields = ['payment_reference', 'order__order_number', 'payment_description']\n    ordering_fields = ['payment_date']\n    ordering = ['-payment_date']",
+        "detail": "payment.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "posts.migrations.0001_initial",
+        "description": "posts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('accounts', '0005_profile_bio'),\n        ('produce', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Post',\n            fields=[",
+        "detail": "posts.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "posts.migrations.0002_remove_post_expected_price_per_unit_and_more",
+        "description": "posts.migrations.0002_remove_post_expected_price_per_unit_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('posts', '0001_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='post',\n            name='expected_price_per_unit',\n        ),\n        migrations.RemoveField(",
+        "detail": "posts.migrations.0002_remove_post_expected_price_per_unit_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "posts.migrations.0003_post_image",
+        "description": "posts.migrations.0003_post_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('posts', '0002_remove_post_expected_price_per_unit_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='post',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to='posts/images/'),\n        ),",
+        "detail": "posts.migrations.0003_post_image",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "posts.migrations.0004_post_title",
+        "description": "posts.migrations.0004_post_title",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('posts', '0003_post_image'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='post',\n            name='title',\n            field=models.CharField(blank=True, max_length=100, null=True),\n        ),",
+        "detail": "posts.migrations.0004_post_title",
+        "documentation": {}
+    },
+    {
+        "label": "PostAdmin",
+        "kind": 6,
+        "importPath": "posts.admin",
+        "description": "posts.admin",
+        "peekOfCode": "class PostAdmin(admin.ModelAdmin):\n    list_display = ['title', 'produce', 'expected_quantity', 'location', 'is_sold_out', 'image']\n    list_filter = ['is_sold_out']\n    search_fields = ['title', 'produce__name', 'farmer__user__username']\n    list_per_page = 20\n    list_max_show_all = 100\n    # list_editable = ['is_sold_out']",
+        "detail": "posts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PostsConfig",
+        "kind": 6,
+        "importPath": "posts.apps",
+        "description": "posts.apps",
+        "peekOfCode": "class PostsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'posts'",
+        "detail": "posts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "posts.models",
+        "description": "posts.models",
+        "peekOfCode": "class Post(models.Model):\n    title = models.CharField(max_length=100, null=True, blank=True)\n    farmer = models.ForeignKey('accounts.Profile', on_delete=models.CASCADE)\n    produce = models.ForeignKey('produce.Produce', on_delete=models.CASCADE)\n    image = models.ImageField(upload_to='posts/images/', null=True, blank=True)\n    location = models.CharField(max_length=100)\n    description = models.TextField(default='No description')\n    is_negotiable = models.BooleanField(default=False)\n    expected_quantity = models.PositiveIntegerField(null=True, blank=True, help_text=\"Tons\")\n    price_per_ton = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True, help_text=\"GHC\")",
+        "detail": "posts.models",
+        "documentation": {}
+    },
+    {
+        "label": "PostReadSerializer",
+        "kind": 6,
+        "importPath": "posts.serializers",
+        "description": "posts.serializers",
+        "peekOfCode": "class PostReadSerializer(serializers.ModelSerializer):\n    farmer = ProfileSerializer(read_only=True)\n    produce = ProduceSerializer(read_only=True)\n    class Meta:\n        model = Post\n        fields = '__all__'\nclass PostCreateSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Post\n        fields = '__all__'",
+        "detail": "posts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PostCreateSerializer",
+        "kind": 6,
+        "importPath": "posts.serializers",
+        "description": "posts.serializers",
+        "peekOfCode": "class PostCreateSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Post\n        fields = '__all__'\n        read_only_fields = ['id', 'created_at', 'updated_at']",
+        "detail": "posts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PostViewSet",
+        "kind": 6,
+        "importPath": "posts.views",
+        "description": "posts.views",
+        "peekOfCode": "class PostViewSet(viewsets.ModelViewSet):\n    queryset = Post.objects.all()\n    filterset_fields = ['farmer__user__id', 'farmer', 'is_negotiable', 'is_sold_out']\n    parser_classes = (MultiPartParser, FormParser)\n    def get_serializer_class(self):\n        if self.action in ['create', 'update', 'partial_update']:\n            return PostCreateSerializer\n        return PostReadSerializer",
+        "detail": "posts.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "post_gallery.migrations.0001_initial",
+        "description": "post_gallery.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('posts', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='PostGallery',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "post_gallery.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "PostGalleryConfig",
+        "kind": 6,
+        "importPath": "post_gallery.apps",
+        "description": "post_gallery.apps",
+        "peekOfCode": "class PostGalleryConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'post_gallery'",
+        "detail": "post_gallery.apps",
+        "documentation": {}
+    },
+    {
+        "label": "PostGallery",
+        "kind": 6,
+        "importPath": "post_gallery.models",
+        "description": "post_gallery.models",
+        "peekOfCode": "class PostGallery(models.Model):\n    post = models.ForeignKey('posts.Post', on_delete=models.CASCADE, null=True)\n    image = models.ImageField(upload_to='post_gallery/')\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return f\"Post Gallery for {self.post.produce.name}\"",
+        "detail": "post_gallery.models",
+        "documentation": {}
+    },
+    {
+        "label": "PostGallerySerializer",
+        "kind": 6,
+        "importPath": "post_gallery.serializers",
+        "description": "post_gallery.serializers",
+        "peekOfCode": "class PostGallerySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = PostGallery\n        fields = '__all__'",
+        "detail": "post_gallery.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PostGalleryViewSet",
+        "kind": 6,
+        "importPath": "post_gallery.views",
+        "description": "post_gallery.views",
+        "peekOfCode": "class PostGalleryViewSet(viewsets.ModelViewSet):\n    queryset = PostGallery.objects.all()\n    serializer_class = PostGallerySerializer",
+        "detail": "post_gallery.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "produce.migrations.0001_initial",
+        "description": "produce.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Produce',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "produce.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "produce.migrations.0002_inventory",
+        "description": "produce.migrations.0002_inventory",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('produce', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Inventory',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('quantity', models.PositiveIntegerField(default=0)),",
+        "detail": "produce.migrations.0002_inventory",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "produce.migrations.0003_alter_inventory_quantity",
+        "description": "produce.migrations.0003_alter_inventory_quantity",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('produce', '0002_inventory'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='inventory',\n            name='quantity',\n            field=models.PositiveIntegerField(default=0, help_text='Tons'),\n        ),",
+        "detail": "produce.migrations.0003_alter_inventory_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "ProduceAdmin",
+        "kind": 6,
+        "importPath": "produce.admin",
+        "description": "produce.admin",
+        "peekOfCode": "class ProduceAdmin(admin.ModelAdmin):\n    list_display = ('name', 'description', 'image', 'created_at', 'updated_at')\n    search_fields = ('name', 'description')\n    list_filter = ('created_at', 'updated_at')\n    ordering = ('-created_at',)\n    list_per_page = 10\n    list_max_show_all = 100\n    list_editable = ('description', 'image')\n@admin.register(Inventory)   \nclass InventoryAdmin(admin.ModelAdmin):",
+        "detail": "produce.admin",
+        "documentation": {}
+    },
+    {
+        "label": "InventoryAdmin",
+        "kind": 6,
+        "importPath": "produce.admin",
+        "description": "produce.admin",
+        "peekOfCode": "class InventoryAdmin(admin.ModelAdmin):\n    list_display = ('produce', 'quantity', 'created_at', 'updated_at')\n    list_filter = ('produce',)\n    search_fields = ('produce__name',)\n    ordering = ('-created_at',)\n    readonly_fields = ('created_at', 'updated_at')\n    def save_model(self, request, obj, form, change):\n        # Optionally handle custom save logic here\n        super().save_model(request, obj, form, change)",
+        "detail": "produce.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ProduceConfig",
+        "kind": 6,
+        "importPath": "produce.apps",
+        "description": "produce.apps",
+        "peekOfCode": "class ProduceConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'produce'",
+        "detail": "produce.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Produce",
+        "kind": 6,
+        "importPath": "produce.models",
+        "description": "produce.models",
+        "peekOfCode": "class Produce(models.Model):\n    name = models.CharField(max_length=100)\n    description = models.TextField()\n    image = models.ImageField(upload_to='produces/images/', blank=True, null=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return self.name\nclass Inventory(models.Model):\n    produce = models.OneToOneField(Produce, on_delete=models.CASCADE)",
+        "detail": "produce.models",
+        "documentation": {}
+    },
+    {
+        "label": "Inventory",
+        "kind": 6,
+        "importPath": "produce.models",
+        "description": "produce.models",
+        "peekOfCode": "class Inventory(models.Model):\n    produce = models.OneToOneField(Produce, on_delete=models.CASCADE)\n    quantity = models.PositiveIntegerField(default=0, help_text='Tons')\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return f\"{self.produce.name} - {self.quantity} units\"",
+        "detail": "produce.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProduceSerializer",
+        "kind": 6,
+        "importPath": "produce.serializers",
+        "description": "produce.serializers",
+        "peekOfCode": "class ProduceSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Produce\n        fields = '__all__'\nclass InventorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Inventory\n        fields = ['id', 'produce', 'quantity', 'created_at', 'updated_at']",
+        "detail": "produce.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "InventorySerializer",
+        "kind": 6,
+        "importPath": "produce.serializers",
+        "description": "produce.serializers",
+        "peekOfCode": "class InventorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Inventory\n        fields = ['id', 'produce', 'quantity', 'created_at', 'updated_at']",
+        "detail": "produce.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProduceViewSet",
+        "kind": 6,
+        "importPath": "produce.views",
+        "description": "produce.views",
+        "peekOfCode": "class ProduceViewSet(viewsets.ModelViewSet):\n    queryset = Produce.objects.all()\n    serializer_class = ProduceSerializer\n    filter_backends = [filters.SearchFilter]\n    search_fields = ['name', 'description']\nclass InventoryViewSet(viewsets.ModelViewSet):\n    queryset = Inventory.objects.all()\n    serializer_class = InventorySerializer\n    lookup_field = 'produce_id'",
+        "detail": "produce.views",
+        "documentation": {}
+    },
+    {
+        "label": "InventoryViewSet",
+        "kind": 6,
+        "importPath": "produce.views",
+        "description": "produce.views",
+        "peekOfCode": "class InventoryViewSet(viewsets.ModelViewSet):\n    queryset = Inventory.objects.all()\n    serializer_class = InventorySerializer\n    lookup_field = 'produce_id'",
+        "detail": "produce.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "purchase_request.migrations.0001_initial",
+        "description": "purchase_request.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('produce', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='PurchaseRequest',\n            fields=[",
+        "detail": "purchase_request.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "purchase_request.migrations.0002_remove_purchaserequest_farmer_response_and_more",
+        "description": "purchase_request.migrations.0002_remove_purchaserequest_farmer_response_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('purchase_request', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='purchaserequest',\n            name='farmer_response',\n        ),",
+        "detail": "purchase_request.migrations.0002_remove_purchaserequest_farmer_response_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "purchase_request.migrations.0003_remove_purchaserequest_factory_and_more",
+        "description": "purchase_request.migrations.0003_remove_purchaserequest_factory_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('accounts', '0005_profile_bio'),\n        ('purchase_request', '0002_remove_purchaserequest_farmer_response_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='purchaserequest',\n            name='factory',\n        ),",
+        "detail": "purchase_request.migrations.0003_remove_purchaserequest_factory_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "purchase_request.migrations.0004_alter_purchaserequest_quantity_requested",
+        "description": "purchase_request.migrations.0004_alter_purchaserequest_quantity_requested",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('purchase_request', '0003_remove_purchaserequest_factory_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='purchaserequest',\n            name='quantity_requested',\n            field=models.PositiveIntegerField(help_text='Quantity in tons'),\n        ),",
+        "detail": "purchase_request.migrations.0004_alter_purchaserequest_quantity_requested",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "purchase_request.migrations.0005_purchaseresponse_rejected",
+        "description": "purchase_request.migrations.0005_purchaseresponse_rejected",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('purchase_request', '0004_alter_purchaserequest_quantity_requested'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='purchaseresponse',\n            name='rejected',\n            field=models.BooleanField(default=False),\n        ),",
+        "detail": "purchase_request.migrations.0005_purchaseresponse_rejected",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseRequestAdmin",
+        "kind": 6,
+        "importPath": "purchase_request.admin",
+        "description": "purchase_request.admin",
+        "peekOfCode": "class PurchaseRequestAdmin(admin.ModelAdmin):\n    list_display = ('produce', 'quantity_requested', 'pickup_date', 'status')\n    list_filter = ('status',)\n    search_fields = ('produce__name',)\n@admin.register(PurchaseResponse)\nclass PurchaseResponseAdmin(admin.ModelAdmin):\n    list_display = ('purchase_request', 'farmer', 'accepted', 'response_date')\n    search_fields = ('farmer__phone_number', 'purchase_request__id')",
+        "detail": "purchase_request.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseResponseAdmin",
+        "kind": 6,
+        "importPath": "purchase_request.admin",
+        "description": "purchase_request.admin",
+        "peekOfCode": "class PurchaseResponseAdmin(admin.ModelAdmin):\n    list_display = ('purchase_request', 'farmer', 'accepted', 'response_date')\n    search_fields = ('farmer__phone_number', 'purchase_request__id')",
+        "detail": "purchase_request.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseRequestConfig",
+        "kind": 6,
+        "importPath": "purchase_request.apps",
+        "description": "purchase_request.apps",
+        "peekOfCode": "class PurchaseRequestConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'purchase_request'",
+        "detail": "purchase_request.apps",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseRequest",
+        "kind": 6,
+        "importPath": "purchase_request.models",
+        "description": "purchase_request.models",
+        "peekOfCode": "class PurchaseRequest(models.Model):\n    produce = models.ForeignKey(Produce, on_delete=models.CASCADE)\n    quantity_requested = models.PositiveIntegerField(help_text='Quantity in tons')\n    proposed_price = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True, help_text='Price per ton')\n    pickup_date = models.DateField()\n    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='pending')\n    farmers_responded = models.ManyToManyField('accounts.Profile', through='PurchaseResponse', related_name='responses')\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Request for {self.produce}\"",
+        "detail": "purchase_request.models",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseResponse",
+        "kind": 6,
+        "importPath": "purchase_request.models",
+        "description": "purchase_request.models",
+        "peekOfCode": "class PurchaseResponse(models.Model):\n    purchase_request = models.ForeignKey(PurchaseRequest, on_delete=models.CASCADE)\n    farmer = models.ForeignKey('accounts.Profile', on_delete=models.CASCADE, related_name='purchase_responses')\n    accepted = models.BooleanField(default=False)\n    rejected = models.BooleanField(default=False)\n    response_date = models.DateTimeField(auto_now_add=True)\n    price_per_ton = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True, help_text='Price per ton')\n    def __str__(self):\n        return f\"Response by {self.farmer.user.username} for request {self.purchase_request.id}\"\n@receiver(post_save, sender=PurchaseRequest)",
+        "detail": "purchase_request.models",
+        "documentation": {}
+    },
+    {
+        "label": "create_purchase_responses",
+        "kind": 2,
+        "importPath": "purchase_request.models",
+        "description": "purchase_request.models",
+        "peekOfCode": "def create_purchase_responses(sender, instance, created, **kwargs):\n    if created:\n        farmers = Profile.objects.filter(role='farmer')\n        for farmer in farmers:\n            PurchaseResponse.objects.create(\n                purchase_request=instance,\n                farmer=farmer\n            )",
+        "detail": "purchase_request.models",
+        "documentation": {}
+    },
+    {
+        "label": "STATUS_CHOICES",
+        "kind": 5,
+        "importPath": "purchase_request.models",
+        "description": "purchase_request.models",
+        "peekOfCode": "STATUS_CHOICES = [('pending', 'Pending'), ('cancelled', 'Cancelled'), ('completed', 'Completed')]\nclass PurchaseRequest(models.Model):\n    produce = models.ForeignKey(Produce, on_delete=models.CASCADE)\n    quantity_requested = models.PositiveIntegerField(help_text='Quantity in tons')\n    proposed_price = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True, help_text='Price per ton')\n    pickup_date = models.DateField()\n    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='pending')\n    farmers_responded = models.ManyToManyField('accounts.Profile', through='PurchaseResponse', related_name='responses')\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):",
+        "detail": "purchase_request.models",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseRequestSerializer",
+        "kind": 6,
+        "importPath": "purchase_request.serializers",
+        "description": "purchase_request.serializers",
+        "peekOfCode": "class PurchaseRequestSerializer(serializers.ModelSerializer):\n    farmers_responded = serializers.SerializerMethodField()\n    produce_details = serializers.SerializerMethodField()\n    class Meta:\n        model = PurchaseRequest\n        fields = '__all__'\n    def get_farmers_responded(self, obj):\n        return [\n            {\n                'id': response.farmer.id,",
+        "detail": "purchase_request.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseResponseCreateSerializer",
+        "kind": 6,
+        "importPath": "purchase_request.serializers",
+        "description": "purchase_request.serializers",
+        "peekOfCode": "class PurchaseResponseCreateSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = PurchaseResponse\n        fields = '__all__'\nclass PurchaseResponseSerializer(serializers.ModelSerializer):\n    quantity_requested = serializers.IntegerField(source='purchase_request.quantity_requested', read_only=True)\n    produce = serializers.CharField(source='purchase_request.produce.name', read_only=True)\n    proposed_price = serializers.CharField(source='purchase_request.proposed_price', read_only=True)\n    pickup_date = serializers.DateField(source='purchase_request.pickup_date', read_only=True)\n    message = serializers.CharField(source='purchase_request.message', read_only=True)",
+        "detail": "purchase_request.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseResponseSerializer",
+        "kind": 6,
+        "importPath": "purchase_request.serializers",
+        "description": "purchase_request.serializers",
+        "peekOfCode": "class PurchaseResponseSerializer(serializers.ModelSerializer):\n    quantity_requested = serializers.IntegerField(source='purchase_request.quantity_requested', read_only=True)\n    produce = serializers.CharField(source='purchase_request.produce.name', read_only=True)\n    proposed_price = serializers.CharField(source='purchase_request.proposed_price', read_only=True)\n    pickup_date = serializers.DateField(source='purchase_request.pickup_date', read_only=True)\n    message = serializers.CharField(source='purchase_request.message', read_only=True)\n    class Meta:\n        model = PurchaseResponse\n        fields = '__all__'\nclass PurchaseRequestDetailSerializer(serializers.ModelSerializer):",
+        "detail": "purchase_request.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseRequestDetailSerializer",
+        "kind": 6,
+        "importPath": "purchase_request.serializers",
+        "description": "purchase_request.serializers",
+        "peekOfCode": "class PurchaseRequestDetailSerializer(serializers.ModelSerializer):\n    responses = PurchaseResponseSerializer(many=True, read_only=True, source='purchaseresponse_set')\n    produce_name = serializers.CharField(source='produce.name', read_only=True)\n    total_responses = serializers.IntegerField(source='purchaseresponse_set.count', read_only=True)\n    class Meta:\n        model = PurchaseRequest\n        fields = ['id', 'produce', 'produce_name', 'quantity_requested', 'proposed_price', 'pickup_date', 'status', 'created_at', 'total_responses', 'responses']\n        read_only_fields = ['id', 'created_at', 'total_responses']\n    def to_representation(self, instance):\n        representation = super().to_representation(instance)",
+        "detail": "purchase_request.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseRequestViewSet",
+        "kind": 6,
+        "importPath": "purchase_request.views",
+        "description": "purchase_request.views",
+        "peekOfCode": "class PurchaseRequestViewSet(viewsets.ModelViewSet):\n    queryset = PurchaseRequest.objects.all()\n    serializer_class = PurchaseRequestSerializer\n    def get_serializer_class(self):\n        if self.action == 'retrieve':\n            return PurchaseRequestDetailSerializer\n        return PurchaseRequestSerializer\nclass PurchaseResponseViewSet(viewsets.ModelViewSet):\n    queryset = PurchaseResponse.objects.all()\n    serializer_class = PurchaseResponseSerializer",
+        "detail": "purchase_request.views",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseResponseViewSet",
+        "kind": 6,
+        "importPath": "purchase_request.views",
+        "description": "purchase_request.views",
+        "peekOfCode": "class PurchaseResponseViewSet(viewsets.ModelViewSet):\n    queryset = PurchaseResponse.objects.all()\n    serializer_class = PurchaseResponseSerializer\n    filterset_fields = ['farmer', 'accepted', 'rejected']\n    def get_serializer_class(self):\n        if self.action == 'create':\n            return PurchaseResponseCreateSerializer\n        return PurchaseResponseSerializer\n    def get_queryset(self):\n        user = self.request.user",
+        "detail": "purchase_request.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'agriguru.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

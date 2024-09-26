@@ -1,6 +1,7 @@
 from rest_framework.serializers import ModelSerializer
 from .models import Order
-from posts.serializers import PostReadSerializer
+from produce.serializers import ProduceSerializer
+from accounts.serializers import ProfileSerializer
 
 
 class OrderCreateSerializer(ModelSerializer):
@@ -9,7 +10,8 @@ class OrderCreateSerializer(ModelSerializer):
         fields = '__all__'
         
 class OrderReadSerializer(ModelSerializer):
-    post = PostReadSerializer(read_only=True)
+    farmer= ProfileSerializer(read_only=True)
+    produce = ProduceSerializer(read_only=True)
     
     class Meta:
         model = Order
